@@ -19,7 +19,7 @@ const forumSchema = new mongoose.Schema({
   },
   comments: {
     type: Array,
-    default: ['Inserted comment', 'Second comment inserted']
+    default: []
   },
   createdAt: {
     type: Date,
