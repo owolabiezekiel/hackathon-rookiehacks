@@ -1,0 +1,15 @@
+.company-name {
+  color: #e68192;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #e68192;
+  border-color: #b36976;
+}
+
+.company-name-navbar {
+  color: #e68192;
+  font-size: 24px;
+}
+
