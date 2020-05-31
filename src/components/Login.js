@@ -23,7 +23,7 @@ function LoginForm(props) {
             "email":state.email,
             "password":state.password,
         }
-        axios.post('http://localhost:3000/api/login', payload)
+        axios.post('http://localhost:3000/API/v1/users/login', payload)
             .then(function (response) {
                 if(response.data.code === 200){
                     setState(prevState => ({
